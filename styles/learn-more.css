@@ -1,0 +1,38 @@
+div.learn-more-wrapper {
+  width: 100%;
+  height: 50vh;
+  background-color: violet;
+  padding: 20px 0; }
+div.learn-more-banner {
+  width: 100%;
+  height: 100%;
+  background-color: skyblue;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  div.learn-more-banner h1 {
+    line-height: 1;
+    text-align: center; }
+div.contents {
+  background-color: lightpink;
+  margin-bottom: 200px;
+  padding: 15px; }
+div.container-fluid {
+  background-color: aquamarine; }
+div.profile-pics img {
+  width: 100%;
+  height: 100%; }
+div .profile-info {
+  border: 1px solid black;
+  line-height: 1;
+  padding: 0;
+  margin: 0; }
+  div .profile-info p {
+    margin: 0;
+    padding: 3px;
+    text-align: center; }
+div .learn-more-buttons {
+  text-align: center;
+  margin-top: 20px; }
+
+/*# sourceMappingURL=learn-more.css.map */

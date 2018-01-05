@@ -1,0 +1,171 @@
+body {
+	background-color: coral;
+	margin: 0;
+}
+
+h1 {
+	font-size: 52px;
+}
+
+p {
+	font-size: 25px;
+}
+
+.clear {
+	clear: both;
+}
+
+div {
+	&.intro-banner {
+		display: flex;
+		justify-content: center; 
+		align-items: center; 
+		flex-direction: row;
+		flex-wrap:wrap;
+		line-height: 1;
+		background-color: gold;
+		text-align: center; 
+		height: 50%;
+		padding: 0 20%;
+		overflow: auto;
+		margin: auto;
+		position: absolute;
+		top: 0; left: 0; bottom: 0; right: 0;
+		border: solid black;
+	}
+	&.intro-buttons {
+		width: 100%;
+    text-align: center;
+          button {
+              border: 1px solid black;
+              margin: 0 20px;
+          }
+    }
+    &.socials {
+        text-align: center;
+        i {
+            margin: 0 5px;
+        }
+    }
+}
+
+div {
+	&.intro-wrapper{
+		positon: relative;
+		height: 100%;
+	}
+	&.main-buttons {
+		width: 30%;
+		float: left;
+		padding: 15px 0;
+		a {
+			font-size: 17px;
+			color: white;
+			padding: 0;
+		}
+	}
+}
+
+ 
+
+//when the width is less than 860 or if the hieght is greater than 900 
+@media only screen and (max-width: 860px) , (min-height: 900px){ 
+	div {
+		&.intro-wrapper {
+			display: inline-block;
+		}
+		&.intro-banner {
+			padding: 0 10%;
+		}
+	}
+}
+
+//when the width is below 630
+@media only screen and (max-width: 630px) { 
+	div {
+		&.intro-banner {
+			padding: 0 5%;
+			display: inline-table;
+    	//padding: 40px 0;
+			height: 300px;
+		}
+	}
+	h1 {
+		font-size: 45px;
+	}
+	p {
+		font-size: 20px;
+	}
+}
+
+//when the width is below 500
+@media only screen and (max-width: 500px) { 
+	
+	div {
+		&.intro-banner {
+			padding: 0 5%;
+			display: inline-table;
+    	//padding: 40px 0;
+			height: 260px;
+		}
+	}
+	h1 {
+		font-size: 35px;
+	}
+	p, a {
+		font-size: 15px;
+	}
+    
+    div{
+        &.intro-buttons button {
+            margin: 0;
+        }
+    }
+}
+
+//when the width is below 320
+@media only screen and (max-width: 380px) {	
+	a {
+		font-size: 13px;
+		padding: 5px 5px;
+	}
+}
+
+// the width is less than 320
+@media only screen and (max-width: 300px) {
+	div {
+		&.main-buttons {
+			width: 100%;
+		}
+	}
+}
+
+//when the height is less than
+@media only screen and (max-height: 840px) {
+	h1 {
+		font-size: 35px;
+	}
+}
+
+//when the height is greater than 770 
+@media only screen and (min-height: 770px){
+	div {
+		&.intro-banner {
+			max-height: 350px;
+		}
+	}
+	h1 {
+		font-size: 45px;
+	}
+}
+
+//when height is over 600 and the width is less than 380 OR the width id less than 300
+@media only screen and (min-height: 600px) and (max-width: 380px) { 
+	div {
+		&.intro-banner {
+			//max-height: 280px;
+		}
+	}
+}
+
+
