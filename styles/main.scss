@@ -1,12 +1,12 @@
 div {
     &.intro-wrapper {
-        background-color: aqua;
+        //background-color: aqua;
         height: 100vh;
         display: flex;
         align-items: center;
     }
     &.intro-banner {
-        background-color: yellow;
+        //background-color: yellow;
         display: inline-block;
         padding: 2%;
         text-align: center;
@@ -18,13 +18,13 @@ div {
     &.learn-more-wrapper {
         width: 100%;
         height: 50vh;
-        background-color: violet;
+        //background-color: violet;
         padding: 20px 0;
     }
     &.learn-more-banner {
         width: 100%;
         height: 100%;
-        background-color: skyblue;
+        //background-color: skyblue;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -34,7 +34,7 @@ div {
         }
     }
     &.contents {
-        background-color: lightpink;
+        //background-color: lightpink;
         margin-bottom: 200px;
         padding: 15px;
         h2 {
@@ -42,7 +42,7 @@ div {
         }
     }
     &.container-fluid {
-        background-color: aquamarine;
+        //background-color: aquamarine;
     }
     &.profile-pics {
         img {

@@ -1,10 +1,8 @@
 div.intro-wrapper {
-  background-color: aqua;
   height: 100vh;
   display: flex;
   align-items: center; }
 div.intro-banner {
-  background-color: yellow;
   display: inline-block;
   padding: 2%;
   text-align: center; }
@@ -12,12 +10,10 @@ div.intro-banner {
 div.learn-more-wrapper {
   width: 100%;
   height: 50vh;
-  background-color: violet;
   padding: 20px 0; }
 div.learn-more-banner {
   width: 100%;
   height: 100%;
-  background-color: skyblue;
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -25,11 +21,8 @@ div.learn-more-banner {
     line-height: 1;
     text-align: center; }
 div.contents {
-  background-color: lightpink;
   margin-bottom: 200px;
   padding: 15px; }
-div.container-fluid {
-  background-color: aquamarine; }
 div.profile-pics img {
   width: 100%;
   height: 100%; }
