@@ -1,103 +1,49 @@
-body {
-  background-color: coral;
-  margin: 0; }
-
-h1 {
-  font-size: 52px; }
-
-p {
-  font-size: 25px; }
-
-.clear {
-  clear: both; }
-
-div.intro-banner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  line-height: 1;
-  background-color: gold;
-  text-align: center;
-  height: 50%;
-  padding: 0 20%;
-  overflow: auto;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  border: solid black; }
-div.intro-buttons {
-  width: 100%;
-  text-align: center; }
-  div.intro-buttons button {
-    border: 1px solid black;
-    margin: 0 20px; }
-div.socials {
-  text-align: center; }
-  div.socials i {
-    margin: 0 5px; }
-
 div.intro-wrapper {
-  positon: relative;
+  background-color: aqua;
+  height: 100vh;
+  display: flex;
+  align-items: center; }
+div.intro-banner {
+  background-color: yellow;
+  display: inline-block;
+  padding: 2%;
+  text-align: center; }
+
+div.learn-more-wrapper {
+  width: 100%;
+  height: 50vh;
+  background-color: violet;
+  padding: 20px 0; }
+div.learn-more-banner {
+  width: 100%;
+  height: 100%;
+  background-color: skyblue;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  div.learn-more-banner h1 {
+    line-height: 1;
+    text-align: center; }
+div.contents {
+  background-color: lightpink;
+  margin-bottom: 200px;
+  padding: 15px; }
+div.container-fluid {
+  background-color: aquamarine; }
+div.profile-pics img {
+  width: 100%;
   height: 100%; }
-div.main-buttons {
-  width: 30%;
-  float: left;
-  padding: 15px 0; }
-  div.main-buttons a {
-    font-size: 17px;
-    color: white;
-    padding: 0; }
-
-@media only screen and (max-width: 860px), (min-height: 900px) {
-  div.intro-wrapper {
-    display: inline-block; }
-  div.intro-banner {
-    padding: 0 10%; } }
-@media only screen and (max-width: 630px) {
-  div.intro-banner {
-    padding: 0 5%;
-    display: inline-table;
-    height: 300px; }
-
-  h1 {
-    font-size: 45px; }
-
-  p {
-    font-size: 20px; } }
-@media only screen and (max-width: 500px) {
-  div.intro-banner {
-    padding: 0 5%;
-    display: inline-table;
-    height: 260px; }
-
-  h1 {
-    font-size: 35px; }
-
-  p, a {
-    font-size: 15px; }
-
-  div.intro-buttons button {
-    margin: 0; } }
-@media only screen and (max-width: 380px) {
-  a {
-    font-size: 13px;
-    padding: 5px 5px; } }
-@media only screen and (max-width: 300px) {
-  div.main-buttons {
-    width: 100%; } }
-@media only screen and (max-height: 840px) {
-  h1 {
-    font-size: 35px; } }
-@media only screen and (min-height: 770px) {
-  div.intro-banner {
-    max-height: 350px; }
-
-  h1 {
-    font-size: 45px; } }
+div .profile-info {
+  border: 1px solid black;
+  line-height: 1;
+  padding: 0;
+  margin: 0; }
+  div .profile-info p {
+    margin: 0;
+    padding: 3px;
+    text-align: center; }
+div .learn-more-buttons {
+  text-align: center;
+  margin-top: 20px; }
 
 /*# sourceMappingURL=main.css.map */
