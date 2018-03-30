@@ -39,5 +39,27 @@ div .profile-info {
 div .learn-more-buttons {
   text-align: center;
   margin-top: 20px; }
+div .map-responsive{
+    overflow:hidden;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:50%;
+    width:70%;
+    position:absolute;
+}
+.footer {
+  text-align:left;
+  padding-top:10px;
+}
+/*
+need to get the vertical line not to override the map
+.footer #divider-vertical {
+  height:200px;
+}
+*/
 
 /*# sourceMappingURL=main.css.map */
